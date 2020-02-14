@@ -1,0 +1,30 @@
+{
+  "name": "@nodechessengineserver/chessboard",
+  "version": "1.0.0",
+  "description": "Javascript chess board and abstract engine.",
+  "main": "src/chessboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "chess",
+    "board",
+    "abstract",
+    "engine"
+  ],
+  "author": "easychessanimations",
+  "license": "MIT",
+  "homepage": "https://github.com/easychessanimations/chessboard",
+  "bugs": {
+    "url": "https://github.com/easychessanimations/chessboard/issues",
+    "email": "chessbotroulette@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easychessanimations/chessboard.git"
+  },
+  "dependencies": {
+    "@nodechessengineserver/miscutils": "^1.0.0"
+  }
+}
