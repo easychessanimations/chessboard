@@ -1958,9 +1958,13 @@ class AbstractEngine{
     }
   }
 
-  constructor(sendanalysisinfo){      
+  constructor(sendanalysisinfo, stockfishPath){      
       this.sendanalysisinfo = sendanalysisinfo
+	  
+	  this.stockfishPath = stockfishPath
 
+      console.log("created engine", this)
+	  
       this.spawn()
 
       setInterval(this.checkcommand.bind(this), 200)
